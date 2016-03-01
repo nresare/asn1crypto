@@ -8,6 +8,7 @@ import asn1crypto
 
 class CleanCommand(Command):
     user_options = []
+    boolean_options = ['all']
 
     def initialize_options(self):
         pass
