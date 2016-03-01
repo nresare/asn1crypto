@@ -1,0 +1,22 @@
+Source: asn1crypto
+Section: python
+Priority: optional
+Maintainer: Noa Resare <noa@spotify.com>
+Build-Depends: debhelper (>= 9), dh-python, python3-all, python-all,
+   python3-setuptools, python-setuptools
+Standards-Version: 3.9.5
+Homepage: https://github.com/wbond/oscrypto
+
+Package: python-asn1crypto
+Architecture: all
+Depends: ${misc:Depends}, ${python:Depends}
+Description: ASN.1 parsing and serialization library
+ A pure python libray for parsing and serialization of ASN.1 structures.
+ The library design is focused on speed and providing a pythonic API.
+
+Package: python3-asn1crypto
+Architecture: all
+Depends: ${misc:Depends}, ${python3:Depends}
+Description: ASN.1 parsing and serialization library
+ A pure python libray for parsing and serialization of ASN.1 structures.
+ The library design is focused on speed and providing a pythonic API.
